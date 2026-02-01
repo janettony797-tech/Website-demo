@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint"
+    content="width=device-width,initial-scale=-1.o">
+    <title>The Daily Brief</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        body{
+            background-color:#f4f6f8;
+            color:#333
+            line-height 1.6;
+
+        }
+    header{
+        background-color: #0b3c5d;
+        color: white;
+        padding:1.5rem;
+        display:flex
+        align-items center;
+        gap :1rem;
+    }
+    header img{
+        width: 50px;
+        height:50px;
+    }
+    header h1{
+        font-size: 1.8rem;
+    }
+    nav{
+    background-color: #072a40 ;
+    padding:0.8rem;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    padding:2rem
+    max-width 1200px
+    margin auto
+}
+main h2{
+    margin-bottom: 1.5rem;
+}
+section.news-grind{
+    display:grind;
+    grid-template-columns: reapeat(auto-fit,minmax(250px,1fr));
+    gap:1.5rem;
+}
+article{
+    background-color: white;
+    border-radius: 8px;
+    overflow:hidden
+    box-shadow 0 4px 8px rgba(0,0,0,0,1)
+    transition  transform 0.2s
+}
+article:hover{
+    transform: translateY(-5px);
+}
+article img{
+    width: 100%;
+    height: 720px;
+     object-fit:cover
+}
+article.content{
+    padding:1rem
+}
+articleh3{
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+articlep{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+article a{
+    text-decoration: none;
+    color: #0b3c5d;
+    font-weight: bold;
+}
+Footer{
+    background-color: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding:1rem;
+    margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <img src="https://pin.it/2e8ZWu2H3"alt="Daily news brief logo">
+        <h1>Daily News Brief</h1>
+        <P>Home Of Updates </P>
+        </header>
+
+        <!--NAVIGATION-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Sports</a></li>
+                </ul>
+                </nav>
+
+                <!--MAIN CONTENT-->
+                <main>
+                    <h2>Latest News</h2>
+                    <section class="news-grid">
+                        <!--20 ARTICLES-->
+                        <!--Article 1-->
+                        <article>
+                            <h2>Government Annouced New Cost of Living Relief Measures</h2>
+ <p>The plan focuses on reducing pressure from high fuel prices,increasing support for essential food supplies
+                                    ,adjusting certain taxes to live more money in peoples pockets.
+                                </p>
+                            <img src="https://d1mnxluw9mpf9w.cloudfront.net/media/1689/4x3/1200.jpg?bucket=tpn-1"alt="News image">
+                            <div class="content">                      
+<a href="#">Read more</a>
+                            </div>
+                            </article>
+<!--Article 2-->
+<article> 
+    <h2>Youth Unemployment</h2><P>Why are graduates struggling to find jobs
+            Factors such as mismatch between the skills taught in school and the demand of job market 
+            limited entry levels and stong compettionfor available positions
+        </P>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn6HgmCyw1GOLYj7Hvw98k_FaQOlrRlUWneA&s"alt="News Image">
+    <div class="content">
+<a href="#">Read more</a>
+ 
+    </div>
+</article>
+
+<!--Article 3-->
+<article>
+   <h2>Tech Startups in Africa Are Growing Faster Than Ever</h2>  
+      <p>This startups are growing rapidly due to:Incraesed investment,Widespread mobile phone use,
+        Fintech companies are improving how people send and receive money .
+    </p>
+    <img src="https://disruptafrica.com/wp-content/uploads/2020/05/Venture-for-Africa.jpg"alt="News Image">
+    <div class="content">
+  <a href="#">Read more</a>
+    </div>
+</article>
+
+
+<!--Article 4-->
+<article>
+    <h2>Healthcare Reforms </h2>
+        <p>The changes iclude increasing funding for local clinics,Training and deploying more health workers
+            This reforms are being introduced with the goal of making medical service more accesible and affordable
+        </p>
+    <img src="https://www.health.go.ke/sites/default/files/gallery-article/1820571c-8d8d-4a80-b501-7904a96561da.JPG"alt="News Image">
+    <div class="Content">
+    <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 5-->
+<article>
+     <h2>Climate Change Is Affecting Food Production</h2>
+<p> Longer droughts and unexpected floods disrupts arming cycles,rising temparatures and irregular rainfalls make it harder for farmers to plan palnting and harvesting
+    often leading to lower crop yield and higher food prices. 
+</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIqtHm58BaPE_prsfbIFFrAd2oPg8Eu1rV1g&s"alt="News Image">
+    <div class="Content">    
+<a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 6-->
+<article>
+    <h2>Sports</h2>
+        <P>Sorts development programms are playing an important role in discovering and nurturing talents
+            in yesterdays match between Arsenal and Manchester United ,Manchester United takes the lead with a score of 3and Arsenal 2
+        </P>
+        
+        <img src="https://static.independent.co.uk/2025/08/17/17/39/SEI262468314.jpeg"alt="news image">
+<a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 7 -->
+<article>
+     <h2>Public Transport</h2>
+        <P>New rules and new forms of technology are being introduced to improve passengerbsafety
+            including , stricter vehchle inspections,better driving training, digital fare systems and updated safety regulations for users.
+        </P>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-t-UtlIvRLSXFq4hu4ey2XqT_okS1Zy2EvQ&s"alt="News Image">
+    <div class="Content">
+       <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 8-->
+<article>
+    <h2>Entertainment industry</h2>
+        <p>this industry is rapidly changing as digital streaming platforms become the main way people watch movies
+            More creators are now releasing content online instead of relying on gtraditional TV 
+            Streaming also allows audiences to access Entertainment any time.
+        </p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDFLGkmdrnuTp5Y38il7v98XeZYFKzNoBw2A&s"alt="News image">
+    <div class="Content">
+    <a href="#">Read more</a>
+</article>
+</div>
+
+<!--Article 9-->
+<article>
+            <h2>Education systems</h2>
+        <P>The education system is under review as policymakers look ways to improve learning outcomes and prepare students for modrn careers.
+            students have currently reported school for there 2026 academic year
+        </P>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFbuuISdbAefqOM8EP1uefzut_OwyPIxtJCw&s"alt="News image">
+    <div class="Content">
+        <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 10-->
+<article>        <h2>Artifical Intelligence Is Changing Future Work</h2>
+        <P>Artificial Intelligence(AI) is increasingly being intergrated into work solutions in virtually every industry</P>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDfyHaAAMlqumBtkL58jnS8__HtVBgsu6TQ&s"alt="News iamge">
+    <div class="Content"> 
+        <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 11-->
+<article><h2>Urban housing Crisis</h2>
+        <p>citiea are facing growing housing challanges as rent prices rise faster than many peoples income
+            increased demand ,limited affordable housing and higher constructionn costs have made it harder for residents to find homes
+        </p>
+
+    <img src="https://media.istockphoto.com/id/1165384568/photo/europe-modern-complex-of-residential-buildings.jpg?s=612x612&w=0&k=20&c=iW4NBiMPKEuvaA7h8wIsPHikhS64eR-5EVPfjQ9GPOA="alt="News image">
+    <div class="Content">
+        <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 12-->
+<article><h2>Weather Forcast</h2>
+        <p>weather pattern this week are expected to bring mixed conditions across several regions
+            with periods of sunshine interrupted by rain and cooler temparatures
+        </p>
+
+    <img src="https://diffeology.com/wp-content/uploads/2024/06/Difference-Between-Weather-and-Climate.jpg"alt="news image">
+    <div class="Content">
+<a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 13-->
+<article>    <h2>Tourisim</h2>
+    <P>Tourisim continues to plat an important role in economic hrowth as more travelers explore new destinations and cultural experience
+        popular attractions such as beaches and national parks.
+    </P>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJBSchnKLVquh1_Xd4PAovbphvQDifzqmYsg&s"alt="news image">
+    <div class="Content">
+    <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 14 -->
+<article>
+    <h2>Crime</h2>
+    <p>Authorities are increasing efforts to address rising crime concerns through stonger policing,improved surveillance
+        and public awareness campaigns.
+    </p>
+    <img src="https://media.assettype.com/theleaflet%2Fimport%2Fwp-content%2Fuploads%2F2021%2F09%2FScreenshot-2021-09-16-at-12.36.14-PM.jpg?w=480&auto=format%2Ccompress&fit=max"alt="news image">
+    <div class="content">
+<a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 15-->
+<article>
+     <h2>Women Enterpreneurs Breaking Barriers in Business</h2>
+        <p>women are launching successful businesses and introducing innovative ideas to the market 
+            with better access to digital tools ,funding programs women are turning their skills into profiitable venture.
+        </p>
+    <img src="https://images.squarespace-cdn.com/content/v1/52440ddbe4b03b33d728e5ea/9f7460cf-ab12-4109-b38b-1aef4e360dd7/iStock-1402293859.jpg"alt="news image">
+    <div class="Content">
+        <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 16-->
+<article>
+    <h2>Digital Payments</h2>
+        <p>Digital payments are replacing cash faster than expeccted because they are aster and more convinient ways to pay</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjiLixDBmTrovVZVgIf4KzM7ns0bflBR-gA&s"alt="news image">
+    <div class="Content">
+        <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 17-->
+<article>
+     <h2>Religion</h2>
+        <p> Religious communities continue to play an important role in social life by providing spiritual guidance and charity support.
+        </p>
+
+    <img src="https://d5qysv7pc67gd.cloudfront.net/Who-We-Are/_1200x675_crop_center-center_none/our-faith_girl-praying.jpg"alt="news image">
+    <div class="Content">
+       <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 18-->
+<article>
+    <h2>Politics</h2>
+        <p> Political leaders are currently debating new policies aimed at improving economic stability, public services and national development</p>
+    <img src="https://socialstudieshelp.com/wp-content/uploads/2023/12/Political-Power-scaled.jpeg"alt="news image">
+    <div class="Content">
+       <a href="#">Read more</a>
+    </div>
+</article>
+
+<!--Article 19-->
+<article>
+     <h2> Loans</h2>
+        <p> loan services are becomming more widely available through banks,microfinance,digital lending platforms
+            this gives individuals and small businesses more access to credit.
+        </p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMKNoCLofLo33kU7frCEF209wN0Xg0ITZgxQ&s/200*400"alt="news image">
+    <div class="content">
+        <a href="#">Read more</a> 
+    </div>
+</article>
+<!--Article 20-->
+<article>
+    <h2>Breaking News</h2>
+        <p>Authorities have announced a developing situation that is currently being monitored,with officials expected to release more details soon.</p>
+    <img src="https://img.freepik.com/free-vector/global-broadcast-breaking-news-banner-with-global-map_1017-59836.jpg?semt=ais_hybrid&w=740&q=80/400*200" alt="news image">
+    <div class="Content">
+        <a href="#">Read more</a>
+    </div>
+</article>
+                    </section>
+                </main>
+                <!--Footer-->
+                <footer>
+                    <p>&copy;2026 Daily News Brief.All Rights Reserved</p>
+                </footer>
+</body>
+</html>
+
